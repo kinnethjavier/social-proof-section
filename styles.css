@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+
+body {
+  font-size: 15px;
+  background-color: hsl(0, 0%, 100%);
+  font-family: "League Spartan", sans-serif;
+}
+
+header {
+  max-width: 1120px;
+  max-height: 227px;
+  margin-top: 55px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 40px;
+  max-width: 340px;
+  font-weight: 700;
+  margin-left: 166px;
+  color: hsl(300, 43%, 22%);
+}
+
+.sub-header {
+  max-width: 360px;
+  font-weight: 500;
+  margin-left: 166px;
+  line-height: 17px;
+  color: hsl(303, 10%, 53%);
+}
+
+.bg-pattern {
+  top: 0;
+  left: 0;
+  transform: translate(-10%, -10%);
+  position: absolute;
+}
+
+.card {
+  width: 420px;
+  height: 45px;
+  border-radius: 10px;
+  margin-top: 13px;
+  margin-left: 20px;
+  background-color: hsl(300, 24%, 96%);
+  display: flex;
+  align-items: center;
+}
+
+.card > p {
+  margin-left: 34px;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+}
+
+.card > img {
+  padding: 0 7px 0 0;
+}
+
+.card > img:nth-of-type(1) {
+  margin-left: 32px;
+}
+
+.card:nth-of-type(1) {
+  margin-top: 45px;
+}
+
+.card:nth-of-type(2) {
+  margin-left: 65px;
+}
+
+.card:nth-of-type(3) {
+  margin-left: 115px;
+}
+
+.profile-container {
+  display: flex;
+  margin-left: 166px;
+}
+
+.item {
+  width: 300px;
+  height: 210px;
+  border-radius: 10px;
+  margin: 50px 27px 0 0;
+  background-color: hsl(300, 43%, 22%);
+}
+
+.head {
+  width: 170px;
+  margin: 35px 0 25px 25px;
+  display: flex;
+  align-items: center;
+}
+
+.head > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.name {
+  margin-left: 20px;
+  font-weight: 700;
+  line-height: 18px;
+  color: hsl(0, 0%, 100%);
+}
+
+.status {
+  font-weight: 400;
+  color: hsl(333, 80%, 67%);
+}
+
+.item:nth-of-type(2) {
+  margin-top: 70px;
+}
+
+.item:nth-of-type(3) {
+  margin-top: 90px;
+}
+
+.item > p {
+  width: 260px;
+  margin-left: 20px;
+  line-height: 18px;
+  color: hsl(0, 0%, 100%);
+}
+
+.item:nth-of-type(2) > p {
+  width: 250px;
+}
+
+.attribution {
+  font-size: 11px;
+  margin-top: 60px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 375px) and (max-width: 780px) {
+  header {
+    display: inline;
+    margin: 0;
+  }
+
+  h1 {
+    max-width: 232px;
+    margin: 62px auto 0 auto;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .sub-header {
+    max-width: 280px;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .bg-pattern {
+    transform: translate(-27%, -15%);
+  }
+
+  .card {
+    width: 280px;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card:nth-of-type(1) {
+    margin-top: 30px;
+  }
+
+  .card:nth-of-type(2) {
+    margin: 10px auto;
+  }
+
+  .card:nth-of-type(3) {
+    margin: 10px auto 0 auto;
+  }
+
+  .stars {
+    text-align: center;
+    margin-top: 13px;
+  }
+
+  .card > p {
+    margin: 10px 0 0 0;
+  }
+
+  .profile-container {
+    display: inline;
+  }
+
+  .item {
+    width: 280px;
+    margin: 0 auto;
+  }
+
+  .item:nth-of-type(1) {
+    margin-top: 20px;
+  }
+
+  .item:nth-of-type(2) {
+    margin-top: 0;
+  }
+
+  .item:nth-of-type(3) {
+    margin-top: 0;
+  }
+
+  .head {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding-top: 25px;
+  }
+
+  .item > p {
+    width: 240px;
+  }
+
+  .item:nth-of-type(2) > p {
+    width: 235px;
+  }
+
+  .attribution {
+    width: 280px;
+    margin: 30px auto 0 auto;
+  }
+}
